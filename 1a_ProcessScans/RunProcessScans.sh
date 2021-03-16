@@ -26,6 +26,7 @@ dimspy process-scans \
 --min_scans 3 \
 --min-fraction 0.5 \
 --exclude-scan-events 190.0 1200.0 full \
+--exclude-scan-events 486.7650 561.7650 sim \
 --report $REPORT_DIR/process_scan_report.$PBS_JOBID \
 --ncpus $NCPUS
 
